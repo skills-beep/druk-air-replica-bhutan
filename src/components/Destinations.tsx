@@ -1,6 +1,7 @@
-
+import { useState } from "react";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
+import BookingDialog from "./BookingDialog";
 
 const destinationsData = [
   {
@@ -38,6 +39,14 @@ const destinationsData = [
 ];
 
 const Destinations = () => {
+  const [selectedDestination, setSelectedDestination] = useState<(typeof destinationsData)[0] | null>(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+
+  const handleBookNow = (destination: typeof destinationsData[0]) => {
+    setSelectedDestination(destination);
+    setIsDialogOpen(true);
+  };
+
   return (
     <section className="py-16 bg-druk-lightgray">
       <div className="container mx-auto px-4">
@@ -65,7 +74,11 @@ const Destinations = () => {
               <CardContent className="p-4">
                 <p className="text-lg font-bold text-druk-blue">{destination.price}</p>
                 <p className="text-gray-600 mt-2 mb-4">{destination.description}</p>
-                <Button variant="outline" className="w-full border-druk-blue text-druk-blue hover:bg-druk-blue hover:text-white">
+                <Button 
+                  variant="outline" 
+                  className="w-full border-druk-blue text-druk-blue hover:bg-druk-blue hover:text-white"
+                  onClick={() => handleBookNow(destination)}
+                >
                   Book Now
                 </Button>
               </CardContent>
@@ -79,6 +92,14 @@ const Destinations = () => {
           </Button>
         </div>
       </div>
+
+      {selectedDestination && (
+        <BookingDialog
+          open={isDialogOpen}
+          onOpenChange={setIsDialogOpen}
+          destination={selectedDestination}
+        />
+      )}
     </section>
   );
 };
