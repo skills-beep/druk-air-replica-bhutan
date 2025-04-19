@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				druk: {
+					orange: '#F27721',
+					yellow: '#FFC72C',
+					red: '#C70039',
+					blue: '#005AAA',
+					darkblue: '#003366',
+					gold: '#D4AF37',
+					lightgray: '#F8F8F8'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
