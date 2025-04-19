@@ -7,33 +7,33 @@ const destinationsData = [
     id: 1,
     city: "Paro",
     country: "Bhutan",
-    image: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    price: "From $299",
+    image: "https://images.unsplash.com/photo-1624298357046-5f42f5009e10?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Tiger's Nest Monastery image
+    price: "From Nu 7,500",
     description: "Home to the iconic Tiger's Nest Monastery"
   },
   {
     id: 2,
     city: "Thimphu",
     country: "Bhutan",
-    image: "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    price: "From $249",
+    image: "https://images.unsplash.com/photo-1582350642040-7a0d4f7f0e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Thimphu city landscape
+    price: "From Nu 6,250",
     description: "Bhutan's capital city with rich cultural heritage"
   },
   {
     id: 3,
-    city: "Delhi",
-    country: "India",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    price: "From $349",
-    description: "Connect to destinations across South Asia"
+    city: "Punakha",
+    country: "Bhutan",
+    image: "https://images.unsplash.com/photo-1610916162450-f854a7c31f30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Punakha Dzong
+    price: "From Nu 8,750",
+    description: "Home to the magnificent Punakha Dzong"
   },
   {
     id: 4,
-    city: "Bangkok",
-    country: "Thailand",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    price: "From $399",
-    description: "Gateway to Southeast Asia"
+    city: "Bumthang",
+    country: "Bhutan",
+    image: "https://images.unsplash.com/photo-1599766260870-7d9baa9d5d20?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Bumthang valley
+    price: "From Nu 9,250",
+    description: "Sacred valley of spiritual significance"
   }
 ];
 

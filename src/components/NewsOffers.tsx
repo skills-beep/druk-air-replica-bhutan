@@ -7,22 +7,22 @@ const newsAndOffers = [
     id: 1,
     title: "Special Fares to Delhi",
     date: "April 15, 2025",
-    description: "Enjoy special promotional fares on our Paro-Delhi route, starting from just $299.",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    description: "Enjoy special promotional fares on our Paro-Delhi route, starting from just Nu 7,500.",
+    image: "https://images.unsplash.com/photo-1526816962791-5a6de770fdc3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" // Bhutanese landscape with mountains
   },
   {
     id: 2,
     title: "New Flight to Singapore",
     date: "April 10, 2025",
     description: "We're excited to announce our new route connecting Paro with Singapore starting June 2025.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1580077967709-d6613c484b4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" // Traditional Bhutanese architecture
   },
   {
     id: 3,
     title: "Druk Air Awarded 4-Star Rating",
     date: "April 5, 2025",
     description: "Druk Air has been awarded a prestigious 4-star rating for service excellence.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1530122037265-a5f1b7f9a05d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" // Bhutanese prayer flags
   }
 ];
 
