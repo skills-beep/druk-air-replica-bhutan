@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
@@ -8,7 +9,7 @@ const destinationsData = [
     id: 1,
     city: "Paro",
     country: "Bhutan",
-    image: "https://images.unsplash.com/photo-1624298357046-5f42f5009e10?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Tiger's Nest Monastery image
+    image: "https://images.unsplash.com/photo-1553686840-1cfd1782ae09?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80", // Tiger's Nest Monastery
     price: "From Nu 7,500",
     description: "Home to the iconic Tiger's Nest Monastery"
   },
@@ -16,7 +17,7 @@ const destinationsData = [
     id: 2,
     city: "Thimphu",
     country: "Bhutan",
-    image: "https://images.unsplash.com/photo-1582350642040-7a0d4f7f0e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Thimphu city landscape
+    image: "https://images.unsplash.com/photo-1557516026-cf1ff9cbb4ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80", // Buddha Dordenma statue
     price: "From Nu 6,250",
     description: "Bhutan's capital city with rich cultural heritage"
   },
@@ -24,7 +25,7 @@ const destinationsData = [
     id: 3,
     city: "Punakha",
     country: "Bhutan",
-    image: "https://images.unsplash.com/photo-1610916162450-f854a7c31f30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Punakha Dzong
+    image: "https://images.unsplash.com/photo-1609835649099-db064f682ce4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80", // Punakha Dzong
     price: "From Nu 8,750",
     description: "Home to the magnificent Punakha Dzong"
   },
@@ -32,7 +33,7 @@ const destinationsData = [
     id: 4,
     city: "Bumthang",
     country: "Bhutan",
-    image: "https://images.unsplash.com/photo-1599766260870-7d9baa9d5d20?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Bumthang valley
+    image: "https://images.unsplash.com/photo-1580559926893-bcd61ac7d98f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80", // Bhutanese landscape
     price: "From Nu 9,250",
     description: "Sacred valley of spiritual significance"
   }

@@ -29,15 +29,15 @@ const Experience = () => {
               <div className="space-y-4">
                 <div className="h-40 md:h-48 rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                    alt="Druk Air Experience" 
+                    src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                    alt="Airplane Window View" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="h-48 md:h-64 rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                    alt="Druk Air Cabin" 
+                    src="https://images.unsplash.com/photo-1540339832862-474599807836?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                    alt="Airline Cabin" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -45,15 +45,15 @@ const Experience = () => {
               <div className="space-y-4 mt-8">
                 <div className="h-48 md:h-64 rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                    alt="Himalayan Views" 
+                    src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                    alt="Himalayan Mountains" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="h-40 md:h-48 rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                    alt="Inflight Service" 
+                    src="https://images.unsplash.com/photo-1529551739587-e242c564f727?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                    alt="Bhutanese Food" 
                     className="w-full h-full object-cover"
                   />
                 </div>

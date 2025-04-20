@@ -100,6 +100,17 @@ const Contact = () => {
                   Saturday: 9:00 AM - 1:00 PM<br />
                   Sunday: Closed</p>
                 </div>
+                
+                <div className="mt-6">
+                  <h3 className="font-medium text-gray-900 mb-2">Find Us</h3>
+                  <div className="rounded-lg overflow-hidden h-[200px] shadow-md">
+                    <img 
+                      src="https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
+                      alt="Paro Airport Map"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
