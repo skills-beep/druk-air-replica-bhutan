@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+ Drukair Clone Website
+A modern, responsive replica of the official Drukair (Royal Bhutan Airlines) website. This project showcases the core layout, booking UI, and design of the original site using modern web technologies like Vite, React, TypeScript, Tailwind CSS, and shadcn/ui.
 
-## Project info
+🧰 Tech Stack
+⚛️ React – UI development
 
-**URL**: https://lovable.dev/projects/493071e8-83db-4c5d-936f-a84c68e73e4f
+⚡ Vite – Fast development/build tool
 
-## How can I edit this code?
+🌐 TypeScript – Type-safe development
 
-There are several ways of editing your application.
+🎨 Tailwind CSS – Utility-first styling
 
-**Use Lovable**
+🧱 shadcn/ui – Accessible UI components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/493071e8-83db-4c5d-936f-a84c68e73e4f) and start prompting.
+✅ ESLint & PostCSS – Code quality and styling tools
 
-Changes made via Lovable will be committed automatically to this repo.
+📁 Project Structure
+php
+Copy
+Edit
+drukair-clone/
+├── public/               # Static assets
+├── src/                  # Source files (components, pages)
+├── index.html            # Entry HTML
+├── tailwind.config.ts    # Tailwind configuration
+├── vite.config.ts        # Vite configuration
+├── tsconfig*.json        # TypeScript configs
+├── .eslintrc.js          # Linting rules
+└── package.json          # Project metadata & dependencies
+🚀 Features
+✈️ Flight booking interface mockup
 
-**Use your preferred IDE**
+📆 Date pickers and passenger selectors
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+💡 Clean, minimal, and modern design
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📱 Fully responsive for all screen sizes
 
-Follow these steps:
+🌙 Dark mode-ready with shadcn/ui
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🧩 Modular React components
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🛠️ Getting Started
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/skills-beep/drukair-clone.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate into the project
+cd drukair-clone
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-```
+🌐 Deployment
+You can deploy the site easily using platforms like Vercel, Netlify, or GitHub Pages.
 
-**Edit a file directly in GitHub**
+📌 Disclaimer
+This is a fan-made, non-commercial project built for educational purposes. It is not affiliated with or endorsed by Drukair.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/493071e8-83db-4c5d-936f-a84c68e73e4f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+👨‍💻 Author
+Bishal Sharma
+If you like this project, consider leaving a ⭐️ on GitHub!
